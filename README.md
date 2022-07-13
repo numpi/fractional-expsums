@@ -12,7 +12,7 @@ and compares the result with the dense solution obtained by diagonalization.
 
 ### Solution of a low CP-rank equation
 The example ```num_exp_lowrank.m``` deals with the case above, but assumes that the right hand side in the equation is 
-product of three functions that depend on x, y, and z, respectively. Then, the right hand side is stored in the CP format, 
+product of three functions that depend on $x$, $y$, and $z$, respectively. Then, the right hand side is stored in the CP format, 
 and the solution is computed in the same format by exponential sum approximation. 
 
 ### Low-rank approximability properties
@@ -20,5 +20,5 @@ The test ```num_exp_lowrank_approximability.m``` checks the bounds for the low-r
 Tucker formats for the solution of fractional differential equations. 
 
 ### High-dimensional TT solver 
-In the last test, ```num_exp_tt.m```, a high-dimensional equation over [0, 1]^d (up to $d = 20$) is solved by combining 
+In the last test, ```num_exp_tt.m```, a high-dimensional equation over $[0, 1]^d$ (up to $d = 20$) is solved by combining 
 a TT-cross approximation for the right hand side, and the exponential sum approximation in the TT-format. 
